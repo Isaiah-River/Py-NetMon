@@ -1,6 +1,6 @@
-# 🐍 What is Py IDS?
+# 🐍 What is Py-NetMon?
 
-This Python-based IDS (Intrusion Detection System) is designed to monitor network traffic and detect intrusions based on
+This Python-NetMon is designed to monitor network traffic and detect intrusions based on
 user-defined criteria. It provides the flexibility to specify filtering criteria such as target IP, target port, source 
 IP, source port, and protocol to customize the detection process.
 
@@ -34,9 +34,9 @@ pip install scapy
 pip install plyer
 ```
 
-## 🖱️ Using Py IDS
+## 🖱️ Using Py-NetMon
 
-Py IDS is relatively simple to use. First select the output file you would like detected packets to be saved in (csv or 
+Py-NetMon is relatively simple to use. First select the output file you would like detected packets to be saved in (csv or 
 json). After this, select the filter you would like to scan packets for (options 1-5). After providing the filter, 
 select option 6 to start a scan. This will detect packets in the background and alert your Windows system when a packet
 matching the selected filter is found. Option 7 can be selected in order to stop the scan. Finally, option 8 will exit
