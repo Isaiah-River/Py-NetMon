@@ -43,5 +43,5 @@ matching the selected filter is found. `Option 7` can be selected in order to st
 the program, and export the detected packets into detected_packets.json/csv. Additionally, the ids_log.txt file will
 contain logs detailing information about the detected packets, as well as Py IDS activity.
 
-If you want to save detected_packets.csv or detected_packets.json, rename the captures, and drag and drop them into the 
-detected_packets folder. Enjoy packet detecting! 
+If you want to save `detected_packets.csv` or `detected_packets.json`, rename the captures, and drag and drop them into the 
+`detected_packets` folder. Enjoy packet detecting! 
