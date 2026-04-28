@@ -37,9 +37,9 @@ pip install plyer
 ## 🖱️ Using Py-NetMon
 
 Py-NetMon is relatively simple to use. First select the output file you would like detected packets to be saved in (csv or 
-json). After this, select the filter you would like to scan packets for (options 1-5). After providing the filter, 
-select option 6 to start a scan. This will detect packets in the background and alert your Windows system when a packet
-matching the selected filter is found. Option 7 can be selected in order to stop the scan. Finally, option 8 will exit
+json). After this, select the filter you would like to scan packets for (`options 1-5`). After providing the filter, 
+select `option 6` to start a scan. This will detect packets in the background and alert your Windows system when a packet
+matching the selected filter is found. `Option 7` can be selected in order to stop the scan. Finally, `option 8` will exit
 the program, and export the detected packets into detected_packets.json/csv. Additionally, the ids_log.txt file will
 contain logs detailing information about the detected packets, as well as Py IDS activity.
 
